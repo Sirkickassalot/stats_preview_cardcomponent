@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Space Mono', monospace;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    background-color: hsl(277, 64%, 61%);
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+}
+
+.left_container{
+    width: 65%;
+    height: 100%;
+    background-color: hsl(244, 38%, 16%);
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.left_container p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.content{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content p{
+    font-size: small;
+}
+
+.right_container img{
+    width: 110%;
+    height: 100%;
+    background-image: hsl(277, 64%, 61%);
+    opacity: .5;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer h3{
+    font-family: 'Inter', sans-serif;
+}
